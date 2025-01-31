@@ -22,7 +22,7 @@ class Solution
 {
 public:
     /**
-     * * Solution 1
+     * * Solution 1:
      * 1. Initialize two pointers, one for each array, at the end of each array.
      * 2. Compare the elements at the current positions of both arrays. If the element in the first array is smaller , place it at the current position in the merged array and move the pointer in the first array on step by step.
      * 3. If the element in the second array is smaller, place it at the current position in the merged array and move the pointer in the second array on step by step.
