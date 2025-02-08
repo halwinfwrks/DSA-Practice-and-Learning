@@ -31,11 +31,3 @@ public:
         return result;
     }
 };
-
-int main(int argc, char const *argv[])
-{
-
-    Solution s;
-    cout << s.countAndSay(4);
-    return 0;
-}

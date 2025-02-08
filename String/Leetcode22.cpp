@@ -23,11 +23,3 @@ public:
         return result;
     }
 };
-
-int main(int argc, char const *argv[])
-{
-    Solution s;
-    for (auto p : s.generateParenthesis(4))
-        cout << p << endl;
-    return 0;
-}
